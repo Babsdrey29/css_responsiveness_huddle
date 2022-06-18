@@ -1,0 +1,317 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: hsl(192, 100%, 9%);
+    font-size: 18px;
+    font-family: 'Open sans';
+    font-weight: 400;
+}
+body{
+  background-color: white;
+  width: 100%;
+  position: relative;
+
+}
+.main{
+    background-image: url('bg-hero-desktop.svg');
+    background-color: hsl(193, 100%, 96%);
+    background-repeat: no-repeat;
+    height: 700px;
+}
+.firstdiv{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+.logo{
+    width: 120px;
+    height: 20px;
+}
+.button-1{
+    width: 120px;
+    border-radius: 35px;
+    border: none;
+    background-color: white;
+    font-weight: 700;
+    padding: 5px;
+}
+.seconddiv1{
+    float: left;
+    width: 40%;
+    padding: 40px;
+}
+.mockup{
+    width: 700px;
+}
+h1{
+    font-family: "Poppins";
+    font-weight: 600;
+    font-size: 30px;
+    width: 60%;
+    margin-top: 35px;
+}
+.P1{
+    margin-top: 30px;
+    
+}
+.button-2{
+    width: 300px;
+    border-radius: 35px;
+    border: none;
+    background-color: hsl(322, 100%, 66%);
+    margin-top: 50px;
+    color: white;
+    font-weight: 700;
+    padding: 15px 50px;   
+}
+.button-2:hover{
+    background-color:hsl(322, 87%, 70%) ;
+}
+@media(max-width:786px){
+    .main{
+        background-image: url('bg-hero-mobile.svg') ;
+        height: 800px;
+    }
+}
+@media(max-width:786px){
+    h1{
+        font-size: 25px;
+        margin-left: 80px; 
+        width: 250px;   
+    }
+}
+@media(max-width:786px){
+    .P1{       
+       margin-left: 50px;
+       width: 350px;   
+    }
+}
+@media(max-width:786px){
+    .seconddiv1{       
+          
+    }
+}
+@media(max-width:786px){
+    .button-2{
+        width: 200px;
+        padding: 10px;
+        margin-left: 90px;
+        
+    }
+}
+@media(max-width:786px){
+    .mockup{
+        
+        width: 350px; 
+        margin-left: 30px;  
+    }
+}
+h2{
+    font-family: "Poppins";
+    font-weight: 600;
+}
+.grow-together{
+    padding: 60px;
+    margin-top: 40px;
+}
+.forthdiv{
+    display: flex;
+    border: none;
+    margin: 70px;
+    border-radius: 5px;
+    background-color: rgb(251, 248, 248);
+    flex-direction: row-reverse;
+    
+}
+.flow-div{
+    display: flex;
+    border: none;
+    margin: 70px;
+    border-radius: 5px;
+    background-color: rgb(251, 248, 248);
+}
+@media(max-width:786px){
+    .forthdiv{
+     flex-direction: column;
+    }
+}
+@media(max-width:786px){
+    .flow-div{
+     flex-direction: column;
+    }
+}
+.mockup2{
+    width: 28%;
+    height: 14%;
+    padding: 20px;
+    margin: 30px;
+}
+@media(max-width:786px){
+    .mockup2{
+        
+        width: 270px;  
+    }
+}
+@media(max-width:786px){
+    .P2{
+        
+        justify-content: center;   
+    }
+}
+.P2{
+   width: 80%;
+   margin-top: 50px;
+   color: lightgray;
+}
+.sevethndiv{
+  
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(251, 248, 248);
+    width: 450px;
+    align-items: center;
+    margin-left: 35%;
+    position: absolute;
+    bottom: 200px;
+    margin-top: 40px;
+    
+    
+ }
+ @media(max-width:786px){
+    .sevethndiv{
+        width: 350px;
+        margin-left: 15%;
+        bottom: 400px;
+        
+    }
+}
+ .button-3{
+     width: 250px;
+     height: 50px;
+     border-radius: 30px;
+     border: none;
+     background-color: hsl(322, 100%, 66%);
+     color: white;
+     font-weight: 700; 
+     margin-left: 100px;
+     margin-bottom: 20px;
+ }
+ @media(max-width:786px){
+    .button-3{
+     margin-left: 45px;
+    }
+}
+ .button-3:hover{
+     background-color: hsl(322, 87%, 70%) ;
+ }
+ h3{
+    font-family: "Poppins";
+    font-weight: 600; 
+    margin: 30px;
+    text-align: center;
+}
+footer{
+    background-color: hsl(192, 100%, 9%);
+    height: 200px;
+    padding: 30px;
+    margin-top: 150px;  
+}
+@media(max-width:786px){
+    footer{
+        
+        background-color: hsl(192, 100%, 9%);
+        height: 400px;
+        
+    }
+}
+.logo2{
+    width: 80px;
+    height: 12px;
+    background-color: transparent;
+}
+.P5{
+    font-size: 10px;
+    color: white;
+    margin-left: 10px;
+}
+.lorem{
+    display: flex;
+   margin-top: 15px; 
+}
+.P5-1{
+    font-size: 10px;
+    color: white;
+    width: 200px;
+    margin-left: 10px;
+}
+.icon{
+    width: 10px;
+    height: 10px;
+}
+.foot1{
+    padding: 20px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+h4{
+    color: white;
+    font-size: 10px;
+    margin-top: 10px;
+
+}
+.mainfoot{
+    display: flex;
+    justify-content: space-around;
+   
+}
+@media(max-width:786px){
+    .mainfoot{
+flex-direction: column;
+    }
+}
+
+.foot2{
+    padding: 20px;
+    margin-left: 30px;
+    margin-top: 60px
+}
+@media(max-width:786px){
+    .foot2{
+    padding: 0px;
+    margin: 5px;
+    margin-left: 50px;
+}
+}
+.P6{
+    font-size: 10px;
+    margin-top: 80px;
+    color: #f7f6f6;
+}
+i{
+    color: white;
+    font-size: medium;
+    border: 10px;
+}
+@media(max-width:786px){
+    span{
+    margin: 5px;
+   
+}
+}
+@media(max-width:786px){
+    .foot3{
+    margin-left: 25%;
+   
+}
+}
+@media(max-width:786px){
+    .P6{
+    margin: 5px;
+    padding: 0px;
+    margin-left: 80px;
+
+   
+}
+}
+
+
